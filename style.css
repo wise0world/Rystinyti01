@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    background-color: #151413 ;
+    color: white; 
+    background-image: url("https://files.facepunch.com/lewis/1b1411b1/skins-header-bg-compressed.jpg");background-repeat: no-repeat;
+    background-size: contain;
+ }
+
+ .box {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   padding: 20px;
+   gap: 10px;
+ }
+
+.rust {
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    
+}
+img {
+    width: 100%;
+}
+
+.rust1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
+.Font {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
+.Font1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
+.Font500 {
+    display: flex;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 200px;
+}
+
+.MedievalBG {
+    background-image: url(./primitive-header.jpg);
+    background-size: cover;
+    background-position: center top;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.buttons {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+}
+
+.buttonSIGMA {
+    padding: 8px 20px;
+    background-color: #141312;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.buttonSIGMA:hover{
+    background-color:  #4e4e4e;
+    transform:scale(1.03);
+}
+
+.buttonSIGMA1 {
+    padding: 8px 20px;
+    background-color: #cd412b;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+}
+.buttonSIGMA1:hover{
+    background-color:  #4e4e4e;
+    transform:scale(1.03);
+}
+
+
+.hero-video {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero-video video {
+    
+    width: 100%;
+}
+
+.rusth {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    
+    
+}
+
+.links a {
+    display: block;
+    margin: 0px 16px    ;
+   
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    font-size:30px;
+    
+
+}
+
+
+.title {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 12rem;
+    line-height: 10rem;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    word-spacing: 100vw;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Bebas Neue", sans-serif; ;
+    padding: 8px;
+}
+
+.RED {
+    background-color: #cd412b;
+    transition: 300ms;
+}
+
+.RED:hover{
+    transform:scale(1.03);
+    background-color: grey;
+}
+
+.aim {
+    width: 420px;
+    color: white;
+    font-family:  "Bebas Neue", sans-serif; ;
+    margin-left: 10px;
+    top: 10px;
+    font-size:30px;
+
+}
+
+.container {
+    padding-left: 100px;
+}
+
+.buttons {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+}
+
+.button  {
+    padding: 8px 20px;
+    background-color: #cd412b ;
+    display: block;
+    font-size:30px;
+    transition: 300ms;
+}
+.button:hover{
+    transform:scale(1.03);
+    background-color: grey;
+}
+
+.button-outline {
+    padding: 8px 20px;
+    background-color: #141312;
+    font-size:30px;
+    transition: 300ms;
+}
+.button-outline:hover{
+    transform:scale(1.03);
+}
+
+.button-outline:hover {
+
+    background-color: grey;
+
+ 
+}
+
+.text500 {
+ width: 500px;
+ font-size: 30px;
+ font-family: "Bebas Neue", sans-serif;
+}
+
+.RetroToolCupboard {
+    background-image: url(./rtc-site-header.jpg);
+    background-size: cover;
+    background-position: center top;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.RetroFont500 {
+    display: flex;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 200px;
+}
+
+
+.Retrotext500 {
+    width: 500px;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+   }
+
+   .button123SIGMA {
+    padding: 8px 20px;
+    background-color: #141312;
+    color: rgb(102, 255, 0);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button123SIGMA:hover{
+    background-color:  #4e4e4e;
+    transform:scale(1.03);
+}
+
+.button123SIGMA1 {
+    padding: 8px 20px;
+    background-color: #0dff00;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button123SIGMA1:hover{
+    background-color:  #10d305;
+    transform:scale(1.03);
+}
+
+.Frontiersman {
+    background-image: url(./frontiersman-bg4.jpg);
+    background-size: cover;
+    background-position: center top;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.FrontiersmanFont500 {
+    display: flex;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 200px;
+}
+
+
+.Frontiersmantext500 {
+    width: 500px;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+   }
+
+   .button124SIGMA {
+    padding: 8px 20px;
+    background-color: #413f3d;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button124SIGMA:hover{
+    background-color: rgb(178, 13, 13);
+    transform:scale(1.03);
+}
+
+.button124SIGMA1 {
+    padding: 8px 20px;
+    background-color: #707670;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button124SIGMA1:hover{
+    background-color: rgb(255, 0, 0);
+    transform:scale(1.03);
+}
+
+.Abyss {
+    background-image: url(./abyss_section_background1.jpg);
+    background-size: cover;
+    background-position: center top;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.AbyssFont500 {
+    display: flex;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 200px;
+}
+
+
+.Abysstext500 {
+    width: 500px;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+   }
+
+   .button125SIGMA {
+    padding: 8px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button125SIGMA:hover{
+    background-color: grey;
+    transform:scale(1.03);
+}
+
+.button125SIGMA1 {
+    padding: 8px 20px;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button125SIGMA1:hover{
+    background-color: grey;
+    transform:scale(1.03);
+}
+
+.Lumberjack {
+    background-image: url(./lj-background.jpg);
+    background-size: cover;
+    background-position: center top;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.LumberjackFont500 {
+    display: flex;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 200px;
+}
+
+
+.Lumberjacktext500 {
+    width: 500px;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+   }
+
+   .button126SIGMA {
+    padding: 8px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button126SIGMA:hover{
+    background-color: grey;
+    transform:scale(1.03);
+}
+
+.button126SIGMA1 {
+    padding: 8px 20px;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button126SIGMA1:hover{
+    background-color: grey;
+    transform:scale(1.03);
+}
+
+.Arctic {
+    background-image: url(./arctic-pack-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.ArcticFont500 {
+    display: flex;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 200px;
+}
+
+
+.Arctictext500 {
+    width: 500px;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+   }
+
+   .button127SIGMA {
+    padding: 8px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button127SIGMA:hover{
+    background-color: grey;
+    transform:scale(1.03);
+}
+
+.button127SIGMA1 {
+    padding: 8px 20px;
+    background-color: #00d0ff;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+}
+.button127SIGMA1:hover{
+    background-color: grey;
+    transform:scale(1.03);
+}
+
+.Jungle {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    background-image: url(./jungle_header.jpg);
+    background-size: cover;
+    background-position: center top;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.JungleFont500 {
+    display: flex;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    width: 300px;
+}
+
+
+.Jungletext500 {
+    width: 500px;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+   }
+
+   .button12SIGMA {
+    padding: 8px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+   
+
+    
+}
+.button12SIGMA:hover {
+    background-color: grey;
+    transform:scale(1.03);
+}
+
+
+.button12SIGMA1 {
+    padding: 8px 20px;
+    background-color: #00d0ff;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: 300ms;
+    
+    
+}
+.button12SIGMA1:hover{
+    background-color: grey;
+    transform:scale(1.03);
+}
+
+img:hover{
+    transition: 300ms;
+    transform:scale(1.03);
+}
+
+img{
+    transition: 300ms;
+    transform: scale(1);
+}
+
+video:hover{
+    transition: 300ms;
+    transform:scale(1.03);
+}
+
+video{
+    transition: 300ms;
+    transform: scale(1);
+}
+
+.abc{
+    transition: 300ms;
+}
+
+.abc:hover{
+    transform: scale(1.03);
+}
+
+.btn-Clan {
+    font-family: "Bebas Neue", sans-serif;
+    display: block;
+    margin: 0px 16px    ;
+}
+
+.FontAnimal {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.img-box {
+    width: 400px;
+}
+
+.Vehicle {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    width: 280px;
+    height: 280px;
+    
+   
+}
+
+.Vehicle1 {
+    display: flex;
+
+}
+
+
+@media (max-width: 700px) {
+  
+
+    .Vehicle1 {
+        display: flex;
+
+    }
+}
